@@ -1,0 +1,171 @@
+* {
+    margin : 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #000;
+}
+
+.cathbox {
+    width           : 410px;
+    height          : 39rem;
+    position        : absolute;
+    right            : 3%;
+    border-radius   : 20px;
+    background-color: #fff;
+    font-family     : 'Roboto', sans-serif;
+    display: none;
+    bottom:0;
+}
+
+.close-popup{
+    position: absolute;
+    right: 22px;
+    top: 16px;
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top-part {
+    background             : rgb(255, 123, 0);
+    background             : linear-gradient(90deg, rgba(255, 123, 0, 1) 0%, rgba(255, 112, 0, 1) 100%);
+    border-top-right-radius: 20px;
+    border-top-left-radius : 20px;
+    height                 : 43%;
+    display: none;
+}
+
+.top-contant {
+    padding-top : 20px;
+    padding-left: 50px;
+    display: none;
+    color       : #fff;
+}
+
+.top-contant p {
+    font-weight: 500;
+    line-height: 0.5;
+    font-size  : 18px;
+}
+
+.top-contant h4 {
+    line-height: 1.9;
+}
+
+.top-contant h2 {
+    font-size: 2rem;
+}
+
+.bottom-part {
+    display: none;
+}
+
+.box {
+    background-color: #fff;
+    padding         : 20px;
+    margin          : 15px;
+    border-radius   : 10px;
+    border          : #dcd5d5 1px solid;
+    margin-top      : -29px;
+    height: 398px;
+}
+
+.robot {
+    font-size       : 30px;
+    background-color: rgb(255 112 0);
+    color        : #fff;
+    border-radius: 50%;
+    box-shadow   : 0px -3px 10px 0px rgb(218 122 23);
+    width        : 63px;
+    height       : 63px;
+    position     : relative;
+    margin-left  : 40px;
+}
+
+.robot i {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box p{
+    border: #e4ded6  1px solid;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 400;    
+    padding: 16px 0 0 9px;
+    color: #3e3939;
+    margin: initial;
+    margin-top: 8px;
+    
+}
+
+.p1, .p2, .p3, .p4 {
+    display: none;
+}
+
+.box button{
+    border-radius: 35px;
+    width: 255px;
+    padding: 5px;
+    position        : absolute;
+    left            : 50%;
+    margin-top: 50px;
+    transform       : translate(-50%, -50%);
+    background-color: #fff;
+    border: #dcdcdc 1px solid;
+    height: 45px;
+    box-shadow: 0px 4px 5px 1px #989292;
+    font-size: 15px;
+    display: none;
+}
+
+.box button:hover{
+    opacity: 0.6;
+}
+
+.box h6{
+    padding: 25px 0 2px;
+    font-size: 0.85rem;
+    display: none;
+}
+
+.box h6 span{
+    font-size: 1.2rem;
+    color: rgb(255 112 0);
+    font-weight: 600;
+    background-color: #ff700017;
+    padding: 1px 8px;
+    border-radius: 50%;
+    margin: 3px 0px 0 5px;
+}
+
+.box p label{
+    border: #ffd6b4 3px solid;
+    border-radius: 50%;
+    margin-bottom: -2px;
+    width: 13px;
+    height: 13px;
+    background-color: #ff7100;
+    margin-right: 8px;
+}
+
+
+/* .redDiv {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display:none;
+} */
+
+.chat-open{
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+}
